@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+  <title>Andres Castillo's</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="">
+</head>
+
+<main>
+  <h1>Enumerables in RUBY </h1>
+  <h2>What the heck are Enumerables?</h2>
+  <h4>May 25,2015</h4>
+  <h3>Topics:</h3>
+    <ul>
+      <li>Enumerables...What for?</li>
+      <li>Why Enumerables?</li>
+      <li>Examples</li>
+    </ul>
+<body>
+  <section>
+    <h2>What is an Enumerable?</h2>
+    <p>To be concise an Enumerable is a ruby module that provides various methods to traverse, iterate, go thru each element an manipulate the elements in  a structure like an array or a hash.</p>
+    <p>
+      <h3>Let's go deeper</h3>
+      <p>An "enumerator" is the tool we can use to get each element out of a collection in this way. Before we go ahead, it's important to understand what Enumerable and Enumerator are in Ruby terms.</p>
+      <p>ENUMERABLE VS ENUMERATOR (...coming up)</p>
+     <p>So what are enumerables for then? They are used to modify the elements in a data structure or have some functionality done with them, some of them or one of them. It like aplying functionality to a container of objects that you own. Let's say you have a container of ten (10) cars with different colors. You want to use the blue car today so you use an enumerable to go thru them and get the blue car for you!</p>
+
+    </p>
+
+       <p><img src="../imgs/cycle.png"/></p>
+
+
+    <h2>Enumerable#Cycle</h2>
+      <p>So for the enumerable example we are using the "cycle" method. This enumerable gives you the ability to iterate thru the structure as many times as you want. So for example if we say cycle(3) we would be going thru the structure a total of three (3) times.</p>
+      <p>array = ["Hey", "there", "Coder"]</p>
+<p>array.cycle { |x| puts x }     # print, hey, there, Coder, hey, there, Coder,hey,there.. forever.</p>
+<p>array.cycle(2) { |x| puts x }  # print,hey, there, Coder</p>
+
+    <p><img src=""/></p>
+
+
+
+</body>
+<p>Happy coding!</p>
+<p>@devgmtech</p>
+  </section>
+</main>
