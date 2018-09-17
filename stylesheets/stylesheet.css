@@ -74,3 +74,6 @@ display: inline-block;
 .row2{
 display: inline-block;
 }
+.small-text{
+  font-size: 10px;
+}
